@@ -12,17 +12,18 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginTop="250dp">
 
         <Button
             android:id="@+id/btnMenu1"
             style="@style/menu_btn_style"
-            android:text="Menu1"/>
+            android:text="Menu 1" />
 
         <Button
             android:id="@+id/btnMenu2"
             style="@style/menu_btn_style"
-            android:text="Menu2" />
+            android:text="Menu 2" />
 
     </LinearLayout>
 
@@ -34,12 +35,12 @@
         <Button
             android:id="@+id/btnMenu3"
             style="@style/menu_btn_style"
-            android:text="Menu3"/>
+            android:text="Menu 3"/>
 
         <Button
             android:id="@+id/btnMenu4"
             style="@style/menu_btn_style"
-            android:text="Menu4" />
+            android:text="Menu 4" />
 
     </LinearLayout>
 
